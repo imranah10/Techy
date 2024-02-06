@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+      
+      
+}
+body{
+    overflow-x: hidden;
+}
+.programhead h1{
+    font-size: 3.8rem !important;
+    
+}
+
+/* feature box */
+.featurebox{
+    background-color: #273C48;
+}
+.featurebox .card-body h4,.featurebox .card-body p{
+    color: white;
+}
+
+.borderbox{
+    border: 3px dotted white;
+}
+.borderboxdark{
+    border: 3px dotted black;
+}
+.servicecont{
+    padding: 8px;
+    overflow-y: hidden;
+}
+/* custome media query  */
+
+@media(min-width:666px) and (max-width:992px){
+.managerbox{
+    width: 45rem !important;
+}
+@media(min-width:0px) and (max-width:667px){
+   
+}
+}
+@media(max-width:765px){
+
+    .servicecont{
+        height: 50vh;
+        /* align-items: center; */
+        overflow-y: hidden;
+        
+        
+    }
+    .servicecont i{
+        font-size: 3rem !important;
+        color: red;
+        margin: 80px 0 !important;
+    }
+    .servconchil h3 {
+        font-size: 1.3rem !important;
+    }
+    .servconchil p{
+    font-size: 1rem !important;
+    
+    }
+    .managerbox{
+        width: 30rem !important;
+    }
+}
